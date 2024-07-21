@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 a { text-decoration: none; }
 ul.navigation a:link { color: #dddddd; }
 ul.navigation a:visited { color: #dddddd; }
@@ -46,13 +48,14 @@ li a {
 	display: block;
 	text-align: center;
 	font-size: 18pt;
+  font-family: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;  
 }
 
 p {
 	margin-left: 200px;
 	margin-right: 200px;
 	font-size: 14pt;
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
