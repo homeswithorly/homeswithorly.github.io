@@ -1,23 +1,44 @@
 <html>
-	<head>
-		<title>The Hurley</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
-		<div id="navigation"></div>
-		<script>
-			$(function(){ $("#navigation").load("navigation.html"); });
-		</script>
+  <head>
+    <title>Homes With Orly</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #main-content {
+            margin-top: 0px; /* Adjust based on the height of the navbar */
+            height: calc(800px); /* Full viewport height minus navbar height */
+            background-image: url('imgs/contact.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .inset {
+            background: rgba(255, 255, 255, 0.4); /* Semi-transparent background for readability */
+            padding: 40px;
+            border-radius: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="navigation"></div>
+    <script>
+        $(function(){ $("#navigation").load("navigation.html"); });
+    </script>
 
-<p>
-<a href="www.homeswithorly.com">www.homeswithorly.com</a><br>
-<a href="mailto:info@homeswithorly.com">info@homeswithorly.com</a><br>
-310-490-3532<br>
-<a href="https://www.instagram.com/homeswithorly" target="_blank">@homeswithorly</a>
-</p>
+<div id="main-content">
+    <p class="inset">
+        <span style="font-size: 30px;">SCHEDULE AN INITIAL CONSULTATION</span><br><br>
+        <span style="font-size: 24px;">
+            <a href="mailto:info@homeswithorly.com">info@homeswithorly.com</a><br>
+            310-490-3532<br>
+            <a href="https://www.instagram.com/homeswithorly" target="_blank">@homeswithorly</a>
+        </span>
+    </p>
+</div>
 
-	</body>
+  </body>
 </html>
-
-	
