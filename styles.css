@@ -3,7 +3,7 @@
 a { text-decoration: none; }
 ul.navigation a:link { color: #dddddd; }
 ul.navigation a:visited { color: #dddddd; }
-ul.navigation a:hover { color: #888888; }
+ul.navigation a:hover { color: #414738; }
 ul.navigation a:active { color: #444444; }
 
 body { margin: 0; }
@@ -23,8 +23,8 @@ body { margin: 0; }
 h1 {
   margin-left: 5%;
   font-family: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;  
-	font-size: 30pt;
-	color: #555555;
+	font-size: 24pt;
+	color: #414738;
 }
 
 ul {
@@ -55,6 +55,7 @@ p {
 	margin-right: 200px;
 	font-size: 14pt;
 	font-family: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #414738;
 }
 
 
@@ -91,7 +92,7 @@ p {
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #414738; /* rgba(0,0,0,0.8); */
 }
 
 .dot {
@@ -106,7 +107,7 @@ p {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #414738; /* 717171 */
 }
 
 .fade {
