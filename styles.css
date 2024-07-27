@@ -51,6 +51,13 @@ li a {
   font-family: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;  
 }
 
+li {
+  display: block;
+  text-align: center;
+  font-size: 18pt;
+  font-family: 'DM Sans', 'Helvetica Neue', Helvetica, sans-serif;  
+}
+
 p {
 	margin-left: 200px;
 	margin-right: 200px;
